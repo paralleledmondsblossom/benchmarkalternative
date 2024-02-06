@@ -1,0 +1,5 @@
+Edmonds algorithm
+Without greedy initial matching
+With stopping test for depth first search
+Without delayed shrinking
+Without lazy expansion

@@ -1,0 +1,30 @@
+#!/usr/bin/bash
+# Use INIT
+#./src/matching 0 0 ./graphs/dimacs/streets/luxembourg_osm/luxembourg_osm.mtx 16 1
+#./src/matching 0 0 ./graphs/dimacs/streets/belgium_osm/belgium.mtx 16 1
+#./src/matching 0 0 ./graphs/dimacs/streets/netherlands_osm/netherlands_osm.mtx 16 1
+#./src/matching 0 0 ./graphs/dimacs/streets/italy_osm/italy_osm.mtx 16 1
+#./src/matching 0 0 ./graphs/dimacs/streets/great-britain_osm/great-britain_osm.mtx 16 1
+#./src/matching 0 0 ./graphs/dimacs/streets/germany_osm/germany_osm.mtx 16 1
+./src/matching 0 0 ./graphs/dimacs/streets/asia_osm/asia_osm.mtx 16 1
+./src/matching 0 0 ./graphs/dimacs/streets/europe_osm/europe_osm.mtx 16 1
+
+# Control
+#./src/matching 0 1 ./graphs/dimacs/streets/luxembourg_osm/luxembourg_osm.mtx 16 1
+#./src/matching 0 1 ./graphs/dimacs/streets/belgium_osm/belgium.mtx 16 1
+#./src/matching 0 1 ./graphs/dimacs/streets/netherlands_osm/netherlands_osm.mtx 16 1
+#./src/matching 0 1 ./graphs/dimacs/streets/italy_osm/italy_osm.mtx 16 1
+#./src/matching 0 1 ./graphs/dimacs/streets/great-britain_osm/great-britain_osm.mtx 16 1
+#./src/matching 0 1 ./graphs/dimacs/streets/germany_osm/germany_osm.mtx 16 1
+./src/matching 0 1 ./graphs/dimacs/streets/asia_osm/asia_osm.mtx 16 1
+./src/matching 0 1 ./graphs/dimacs/streets/europe_osm/europe_osm.mtx 16 1
+
+# Control
+##./src/matching 0 2 ./graphs/dimacs/streets/luxembourg_osm/luxembourg_osm.mtx 16 1
+##./src/matching 0 2 ./graphs/dimacs/streets/belgium_osm/belgium.mtx 16 1
+##./src/matching 0 2 ./graphs/dimacs/streets/netherlands_osm/netherlands_osm.mtx 16 1
+##./src/matching 0 2 ./graphs/dimacs/streets/italy_osm/italy_osm.mtx 16 1
+##./src/matching 0 2 ./graphs/dimacs/streets/great-britain_osm/great-britain_osm.mtx 16 1
+##./src/matching 0 2 ./graphs/dimacs/streets/germany_osm/germany_osm.mtx 16 1
+#./src/matching 0 2 ./graphs/dimacs/streets/asia_osm/asia_osm.mtx 16 1
+#./src/matching 0 2 ./graphs/dimacs/streets/europe_osm/europe_osm.mtx 16 1

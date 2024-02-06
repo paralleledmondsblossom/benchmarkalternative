@@ -1,0 +1,15 @@
+#!/bin/bash
+for i in $(seq 21 1 21)
+do
+  ./src/matching 0 0 ./graphs/dimacs/kron/kron_g500-logn${i}/kron_g500-logn${i}.mtx 16 1
+done
+
+for i in $(seq 21 1 21)
+do
+  ./src/matching 0 1 ./graphs/dimacs/kron/kron_g500-logn${i}/kron_g500-logn${i}.mtx 16 1
+done
+
+for i in $(seq 21 1 21)
+do
+  #./src/matching 0 2 ./graphs/dimacs/kron/kron_g500-logn${i}/kron_g500-logn${i}.mtx 16 1
+done

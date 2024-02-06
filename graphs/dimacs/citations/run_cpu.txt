@@ -1,0 +1,21 @@
+#!/usr/bin/bash
+
+#!/usr/bin/bash
+#./src/matching 0 0 ./graphs/dimacs/citations/coAuthorsCiteseer/coAuthorsCiteseer.mtx 16 1
+#./src/matching 0 0 ./graphs/dimacs/citations/coAuthorsDBLP/coAuthorsDBLP.mtx 16 1
+#./src/matching 0 0 ./graphs/dimacs/citations/citationCiteseer/citationCiteseer.mtx 16 1
+./src/matching 0 0 ./graphs/dimacs/citations/coPapersDBLP/coPapersDBLP.mtx 16 1
+#./src/matching 0 0 ./graphs/dimacs/citations/coPapersCiteseer/coPapersCiteseer.mtx 16 1
+
+#./src/matching 0 1 ./graphs/dimacs/citations/coAuthorsCiteseer/coAuthorsCiteseer.mtx 16 1
+#./src/matching 0 1 ./graphs/dimacs/citations/coAuthorsDBLP/coAuthorsDBLP.mtx 16 1
+#./src/matching 0 1 ./graphs/dimacs/citations/citationCiteseer/citationCiteseer.mtx 16 1
+./src/matching 0 1 ./graphs/dimacs/citations/coPapersDBLP/coPapersDBLP.mtx 16 1
+#./src/matching 0 1 ./graphs/dimacs/citations/coPapersCiteseer/coPapersCiteseer.mtx 16 1
+
+##./src/matching 0 2 ./graphs/dimacs/citations/coAuthorsCiteseer/coAuthorsCiteseer.mtx 16 1
+##./src/matching 0 2 ./graphs/dimacs/citations/coAuthorsDBLP/coAuthorsDBLP.mtx 16 1
+##./src/matching 0 2 ./graphs/dimacs/citations/citationCiteseer/citationCiteseer.mtx 16 1
+#./src/matching 0 2 ./graphs/dimacs/citations/coPapersDBLP/coPapersDBLP.mtx 16 1
+##./src/matching 0 2 ./graphs/dimacs/citations/coPapersCiteseer/coPapersCiteseer.mtx 16 1
+

@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+# Use INIT
+#./src/matching 0 0 ./graphs/dimacs/2DDynSims/hugebubbles-00000/hugebubbles-00000.mtx 16 1
+#./src/matching 0 0 ./graphs/dimacs/2DDynSims/hugebubbles-00010/hugebubbles-00010.mtx 16 1
+./src/matching 0 0 ./graphs/dimacs/2DDynSims/hugebubbles-00020/hugebubbles-00020.mtx 16 1
+# Control
+#./src/matching 0 1 ./graphs/dimacs/2DDynSims/hugebubbles-00000/hugebubbles-00000.mtx 16 1
+#./src/matching 0 1 ./graphs/dimacs/2DDynSims/hugebubbles-00010/hugebubbles-00010.mtx 16 1
+./src/matching 0 1 ./graphs/dimacs/2DDynSims/hugebubbles-00020/hugebubbles-00020.mtx 16 1
+# Control
+##./src/matching 0 2 ./graphs/dimacs/2DDynSims/hugebubbles-00000/hugebubbles-00000.mtx 16 1
+##./src/matching 0 2 ./graphs/dimacs/2DDynSims/hugebubbles-00010/hugebubbles-00010.mtx 16 1
+#./src/matching 0 2 ./graphs/dimacs/2DDynSims/hugebubbles-00020/hugebubbles-00020.mtx 16 1

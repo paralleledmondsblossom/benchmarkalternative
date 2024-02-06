@@ -1,0 +1,16 @@
+#!/bin/bash
+
+for i in $(seq 24 1 24)
+do
+  ./src/matching 0 0 ./graphs/dimacs/rgg/rgg_n_2_${i}_s0/rgg_n_2_${i}_s0.mtx 16 1
+done
+
+for i in $(seq 24 1 24)
+do
+  ./src/matching 0 1 ./graphs/dimacs/rgg/rgg_n_2_${i}_s0/rgg_n_2_${i}_s0.mtx 16 1
+done
+
+#for i in $(seq 24 1 24)
+#do
+  #./src/matching 0 2 ./graphs/dimacs/rgg/rgg_n_2_${i}_s0/rgg_n_2_${i}_s0.mtx 16 1
+#done

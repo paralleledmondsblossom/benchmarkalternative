@@ -1,0 +1,41 @@
+#!/usr/bin/bash
+
+for i in $(seq 10 1 24)
+do
+  ./mmaker MT=9 R=4 IF=./dimacs/delauney/delaunay_n$i/delaunay_n$i.mtx
+done
+
+for i in $(seq 16 1 19)
+do
+  ./mmaker MT=9 R=4 IF=./dimacs/kron/kron_g500-logn$i/kron_g500-logn$i.mtx
+done
+
+for i in $(seq 15 1 21)
+do
+  ./mmaker MT=9 R=4 IF=./dimacs/rgg/rgg_n_2_${i}_s0/rgg_n_2_${i}_s0.mtx
+done
+
+./mmaker MT=9 R=4 IF=./dimacs/streets/luxembourg_osm/luxembourg_osm.mtx
+./mmaker MT=9 R=4 IF=./dimacs/streets/belgium_osm/belgium_osm.mtx
+./mmaker MT=9 R=4 IF=./dimacs/streets/netherlands_osm/netherlands_osm.mtx
+./mmaker MT=9 R=4 IF=./dimacs/streets/italy_osm/italy_osm.mtx
+./mmaker MT=9 R=4 IF=./dimacs/streets/great-britain_osm/great-britain_osm.mtx
+./mmaker MT=9 R=4 IF=./dimacs/streets/germany_osm/germany_osm.mtx
+./mmaker MT=9 R=4 IF=./dimacs/streets/asia_osm/asia_osm.mtx
+./mmaker MT=9 R=4 IF=./dimacs/streets/europe_osm/europe_osm.mtx
+
+./mmaker MT=9 R=4 IF=./dimacs/2DDynSims/hugebubbles-00000/hugebubbles-00000.mtx
+./mmaker MT=9 R=4 IF=./dimacs/2DDynSims/hugebubbles-00010/hugebubbles-00010.mtx
+./mmaker MT=9 R=4 IF=./dimacs/2DDynSims/hugebubbles-00020/hugebubbles-00020.mtx
+./mmaker MT=9 R=4 IF=./dimacs/2DDynSims/hugetrace-00000/hugetrace-00000.mtx
+./mmaker MT=9 R=4 IF=./dimacs/2DDynSims/hugetrace-00010/hugetrace-00010.mtx
+./mmaker MT=9 R=4 IF=./dimacs/2DDynSims/hugetrace-00020/hugetrace-00020.mtx
+./mmaker MT=9 R=4 IF=./dimacs/2DDynSims/hugetric-00000/hugetric-00000.mtx
+./mmaker MT=9 R=4 IF=./dimacs/2DDynSims/hugetric-00010/hugetric-00010.mtx
+./mmaker MT=9 R=4 IF=./dimacs/2DDynSims/hugetric-00020/hugetric-00020.mtx
+
+./mmaker MT=9 R=4 IF=./dimacs/citations/coAuthorsCiteseer/coAuthorsCiteseer.mtx
+./mmaker MT=9 R=4 IF=./dimacs/citations/coAuthorsDBLP/coAuthorsDBLP.mtx
+./mmaker MT=9 R=4 IF=./dimacs/citations/citationCiteseer/citationCiteseer.mtx
+./mmaker MT=9 R=4 IF=./dimacs/citations/coPapersDBLP/coPapersDBLP.mtx
+./mmaker MT=9 R=4 IF=./dimacs/citations/coPapersCiteseer/coPapersCiteseer.mtx
